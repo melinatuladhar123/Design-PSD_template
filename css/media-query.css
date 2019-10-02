@@ -1,0 +1,255 @@
+/* header */
+.clear-fix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+main.wrapper {
+    /* min-width: 28.84em; */
+}
+
+.header-wrapper {
+    background-color: #27292f;
+}
+
+.header-wrapper-scaled {
+    width: 28.46153846153846‬em ;
+    margin: auto;
+    padding-left: 20px;
+	padding-right: 20px;
+    background-color: #27292f;
+    
+}
+
+.header-left-wrapper {
+    width: 20%;
+    float: left;
+    background-color: #27292f;
+}
+
+.logo {
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom:16px;
+}
+
+.logo img{
+        width:100%;
+}
+
+.header-right-wrapper {
+    width: 60%;
+    float: right;
+    background-color: #27292f;
+}
+
+.header-right-top {
+    width: 50%;
+    display: block;
+    background-color: #27292f;
+}
+
+.header-right-top form input.searchInput {
+    float: left;
+    background-color: #27292f;
+    margin-top: 16px;
+    /* display:block; */
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 11px;
+    width:60%;
+    display:none;
+     
+}
+   
+.burger-menu{
+    float: right;
+    display: block;
+    color:white;
+    margin-top:16px;
+    width: 3%;
+}
+
+.header-right-bottom{
+    display:none;
+}
+
+/* body */
+.body-wrapper{
+    background-color:black;
+}
+.body-shout-scaled{
+    width:96%;
+    margin:auto;
+    background-color: #e7e7e7;
+
+}
+
+/* footer */
+
+@media only screen and (min-width: 375px) {
+/* header */
+	.clear-fix::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+
+	main.wrapper {
+		min-width: 59.076em;
+	}
+
+	.header-wrapper {
+		background-color: #27292f;
+	}
+
+	.header-wrapper-scaled {
+		width: 96%;
+		margin: auto;
+        background-color: #27292f;
+        
+	}
+
+	.header-left-wrapper {
+		width: 20%;
+		float: left;
+		background-color: #27292f;
+	}
+
+	.logo {
+		width: 70%;
+        padding-top: 16px;
+        padding-bottom:16px;
+    }
+    .logo img{
+        width:100%;
+    }
+
+	.header-right-wrapper {
+		width: 60%;
+		float: right;
+		background-color: #27292f;
+	}
+
+	.header-right-top {
+		width: 50%;
+		display: block;
+		background-color: #27292f;
+	}
+
+	.header-right-top form input.searchInput {
+		float: left;
+		background-color: #27292f;
+		margin-top: 16px;		
+		padding-top: 4px;
+		padding-bottom: 4px;
+        padding-left: 11px;
+        display:none;
+        
+        
+	}
+	   
+    .burger-menu{
+        float: right;
+        display: block;
+        color:white;
+        margin-top:16px;
+        width: 3%;
+    }
+
+    .header-right-bottom{
+        display:none;
+    }
+    
+    /* body */
+
+}
+
+
+
+@media only screen and (min-width : 768px) {
+/* header */
+    .burger-menu{
+        display: none;
+    }
+
+    .clear-fix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    .main-wrapper {
+        
+        min-width: 72.1538em;
+    }
+    
+    .header-wrapper {
+        background-color: #27292f;
+    }
+    
+    .header-wrapper-scaled {
+        width: 96%;
+        margin: auto;
+        background-color: #27292f;
+    }
+    
+    .header-left-wrapper {
+        width: 25%;
+        float: left;
+        background-color: #27292f;
+    }
+    
+    .logo {
+        padding-top: 50px;
+        padding-bottom: 37px;
+        width: 100%;    
+    }
+    
+    
+    .header-right-wrapper {
+        width: 63.5416667%;
+        float: right;
+        background-color: #27292f;
+    }
+    
+    .header-right-top {
+        width: 100%;
+        display: block;
+        background-color: #27292f;
+    }
+    
+    .header-right-top form input.searchInput {
+        float: right;
+        background-color: #27292f;
+        margin-top: 30px;
+        /* width: %;     */
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 11px;
+        display:block;
+
+   
+    }
+    .header-right-bottom {
+        width: 100%;
+        background-color: #27292f;
+        float:right;
+        display:block;
+    }
+
+    /* body */
+    .body-wrapper{
+        background-color:black;
+    }
+    .body-shout-scaled{
+        width:96%;
+        margin:auto;
+        background-color: #e7e7e7;
+
+    }
+
+
+
+}
